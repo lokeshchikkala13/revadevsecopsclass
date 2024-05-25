@@ -8,7 +8,7 @@ jobs:
     name: Build Job
     runs-on: ubuntu-latest
     steps:
-      - name: Step 1 in Build Job Echo Statement
+      - name: Step 1 in Build Job Echo Statement - from local
         run: echo "Build Job is Running- from local"
 
       - name: Step 2 in Build Job Sleep
